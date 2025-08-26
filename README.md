@@ -92,6 +92,12 @@ cd client
 npm start
 ```
 
+## 🎯 Screenshots
+
+### 1.Home
+<img width="1799" height="879" alt="Screenshot 2025-08-26 125318" src="https://github.com/user-attachments/assets/ccf9e437-4584-4f7e-8ecf-626f0994d7b6" />
+
+
 
 
 
