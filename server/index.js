@@ -19,6 +19,9 @@ const fileAssignmentRouter = require('./routes/fileAssignment.route')
 const submissionRouter = require('./routes/submission.route')
 
 // apis
+app.get('/health-check',(req,res)=>{
+  res.send("Testing the server")
+})
 // For Stripe Webhook (must come first)
 app.post(
     '/api/v1/purchase/webhook',
