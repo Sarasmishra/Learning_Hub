@@ -1,7 +1,7 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
 // Base URL for your API
-const REVIEW_API = "http://localhost:3005/api/v1/review";
+const REVIEW_API = `${import.meta.env.VITE_API_URL}/api/v1/review`;
 
 export const reviewApi = createApi({
   reducerPath: 'reviewApi',

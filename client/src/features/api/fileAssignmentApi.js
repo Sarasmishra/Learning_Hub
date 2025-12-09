@@ -1,7 +1,7 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
 // Define the API for file assignments
-const ASSIGNMENTS_API = "http://localhost:3005/api/v1/file-assignments";
+const ASSIGNMENTS_API = `${import.meta.env.VITE_API_URL}/api/v1/file-assignments`;
 export const fileAssignmentApi = createApi({
   reducerPath: 'fileAssignmentApi',
   baseQuery: fetchBaseQuery({ baseUrl: ASSIGNMENTS_API,  credentials: "include" }),

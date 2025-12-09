@@ -1,7 +1,7 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
 // Define the API for submissions
-const SUBMISSION_API ="http://localhost:3005/api/v1/submissions"
+const SUBMISSION_API =`${import.meta.env.VITE_API_URL}/api/v1/submissions`
 export const submissionApi = createApi({
   reducerPath: 'submissionApi',
   baseQuery: fetchBaseQuery({ baseUrl: SUBMISSION_API,credentials: "include"  }),
