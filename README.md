@@ -93,27 +93,33 @@ npm start
 ```
 
 ## 🎯 Screenshots
+### 1.Sign In /Create Account
+<img width="1877" height="870" alt="Screenshot 2025-12-09 100617" src="https://github.com/user-attachments/assets/8fede6b9-baa0-4db8-8852-c2af3c28182d" />
 
-### 1.Home
-<img width="1799" height="879" alt="Screenshot 2025-08-26 125318" src="https://github.com/user-attachments/assets/ccf9e437-4584-4f7e-8ecf-626f0994d7b6" />
+### 2.Home
+<img width="1877" height="873" alt="Screenshot 2025-12-09 100538" src="https://github.com/user-attachments/assets/e920456c-f73a-4e5d-a4a9-62e12d4150f0" />
 
-### 2. Course Detail Page
+### 3. Course Detail Page
 <img width="1696" height="877" alt="Screenshot 2025-08-26 125531" src="https://github.com/user-attachments/assets/b386502d-9c32-4332-907f-b98d36698f63" />
 
-### 3. Dashboard(Instructor)
+### 4. Dashboard(Instructor)
 <img width="1570" height="865" alt="Screenshot 2025-08-26 125744" src="https://github.com/user-attachments/assets/85ded30f-f279-438d-b7dd-52204225bf5e" />
 
-### 4. All courses(Dashboard)
+### 5. All courses(Dashboard)
 <img width="1443" height="863" alt="Screenshot 2025-08-26 125859" src="https://github.com/user-attachments/assets/0d7a186b-dce8-436a-93d1-c1dc7d37d6ac" />
 
-### 5. Course Creation
+### 6. Course Creation
 <img width="1467" height="870" alt="Screenshot 2025-08-26 130017" src="https://github.com/user-attachments/assets/06ef67bf-e3e8-4655-8317-9e86adf10c86" />
 
-### 6. Assignment Page
+### 7. Assignment Page
 <img width="1545" height="863" alt="Screenshot 2025-08-26 130452" src="https://github.com/user-attachments/assets/c451b03e-11f2-436c-b824-5c1c5baaf743" />
 
-### 7. Payment Gateway
+### 8. Payment Gateway
 <img width="1313" height="872" alt="Screenshot 2025-08-26 130304" src="https://github.com/user-attachments/assets/bdf90727-fdfe-46da-89d5-2614d11fc8d5" />
+
+### 9. About
+<img width="1876" height="875" alt="Screenshot 2025-12-09 100559" src="https://github.com/user-attachments/assets/0eb1ea7e-db74-4b08-823a-6c0ae2d377f8" />
+
 
 ---
 
