@@ -28,6 +28,8 @@ import AssignmentsTable from './pages/admin/Assignment/AssignmentTable'
 import CreateAssignmentPage from './pages/admin/Assignment/CreateAssignmentPage'
 import EditAssignmentPage from './pages/admin/Assignment/EditAssignmentPage'
 import AssignmentDetails from './pages/student/AssignmentDetails'
+import CoursesPage from './pages/student/CoursesPage'
+import AboutPage from './pages/student/About'
 
 const appRouter = createBrowserRouter([
   {
@@ -57,6 +59,23 @@ const appRouter = createBrowserRouter([
       {
         path: "profile",
         element: <ProtectedRoute><Profile /></ProtectedRoute>
+      },
+       // Courses: standalone page
+      {
+        path: "courses",
+        element: (
+          <ProtectedRoute>
+            <CoursesPage />
+          </ProtectedRoute>
+        ),
+      },
+            {
+        path: "about",
+        element: (
+          <ProtectedRoute>
+            <AboutPage />
+          </ProtectedRoute>
+        ),
       },
       {
         path: "course/search",
