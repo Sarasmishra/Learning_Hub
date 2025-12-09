@@ -139,6 +139,13 @@ npm start
 - ✅ Backend Completed
 - ✅ Frontend Completed
 - ⚡ Currently adding new features and improving UI
+
+---
+
+## 🌍 Deployment Links
+- Frontend (Render) → https://learning-hub-1-hg4b.onrender.com
+
+- Backend (Render) → https://learning-hub-bzl4.onrender.com
   
 
 🙏 Thank You
