@@ -34,7 +34,7 @@ app.post(
 
 app.use(express.json())
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://learning-hub-1-hg4b.onrender.com",
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials:true
 }));
