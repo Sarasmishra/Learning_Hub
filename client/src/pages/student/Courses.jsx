@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useRef, useState } from "react";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import Course from "./Course";
+import Course from "./course";
 import { useGetPublishedCourseQuery } from "@/features/api/courseApi";
 import { ChevronDown, Grid as GridIcon, List as ListIcon } from "lucide-react";
 
