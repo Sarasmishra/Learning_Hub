@@ -9,7 +9,8 @@ const generateToken = (res, user, message) => {
     .status(200)
     .cookie("token", token, {
       httpsOnly: true,
-      sameSite: "strict",
+      secure: true,
+      sameSite: "none",
       maxAge: 24 * 60 * 60 * 1000,
     }).json({
         status:true,
